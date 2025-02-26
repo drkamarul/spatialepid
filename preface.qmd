@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+This book is designed for students and practitioners in the field of epidemiology and public health. It covers statistical methods commonly used in epidemiological research, with a particular focus on time series and spatial analysis techniques.
+
+## Acknowledgments {.unnumbered}
+
+I would like to thank my colleagues and students who provided valuable feedback during the writing of this book.

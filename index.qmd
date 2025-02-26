@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+Welcome to this book on spatial epidemiology
+
+This text aims to provide introductory knowledge and provide skills to analyze spatial data in epidemiology. 
+
+This book was created using [Quarto](https://quarto.org/), a next-generation publishing system for data science.

@@ -1,0 +1,23 @@
+# Introduction
+
+## Overview of Spatial Epidemiological 
+
+Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems.
+
+```{r}
+# Example of a simple calculation in R
+relative_risk <- function(a, b, c, d) {
+  # a: exposed cases
+  # b: exposed non-cases
+  # c: unexposed cases
+  # d: unexposed non-cases
+  
+  risk_exposed <- a / (a + b)
+  risk_unexposed <- c / (c + d)
+  
+  return(risk_exposed / risk_unexposed)
+}
+
+# Example usage
+relative_risk(15, 85, 5, 95)
+```

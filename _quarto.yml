@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Spatial Epidemiology in Public Health"
+  reader-mode: true
+  page-footer:
+    left: |
+      Spatial Epidemiology in Public Health was written by Kamarul Imran Musa, Hazlienoor Hatta , and Afiq AMsyar.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  # cover-image: cover.jpg
+  # favicon: cover.jpg
+  # site-url: https://r4ds.hadley.nz/
+  repo-url: https://github.com/drkamarul/spatialepid 
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - introduction.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - r4ds.scss
+    code-fold: true
+    toc: true
+    code-link: true

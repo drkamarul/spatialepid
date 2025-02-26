@@ -21,3 +21,5 @@ relative_risk <- function(a, b, c, d) {
 # Example usage
 relative_risk(15, 85, 5, 95)
 ```
+
+This is the reference [@diggle2019model]
